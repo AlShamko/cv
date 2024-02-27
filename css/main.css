@@ -2,6 +2,7 @@
 @import url(../css/fonts.css);
 
 
+
 html,
 body {
 	font-family: 'DMSans', sans-serif;
@@ -105,9 +106,13 @@ body {
 	align-items: center;
 	background-color: #171718;
 	color: #fff;
+	background-image: url(../img/name-abstract.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto;
 }
 
-.name__wrapper {
+/* .name__wrapper {
 	display: flex;
 	column-gap: 50px;
 }
@@ -119,14 +124,11 @@ body {
 
 .name__photo img {
 	border-radius: 100%;
-}
+} */
 
 .name {
 	text-align: center;
-	background-image: url(../img/name-abstract.png);
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: auto;
+
 }
 
 .name__title {
@@ -228,3 +230,30 @@ body {
 }
 
 /* projects__section style end */
+
+/* footer style start */
+
+.footer {
+	background-color: #171718;
+	padding: 60px 0 50px;
+	color: #fff;
+}
+
+.footer__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.social {
+	display: flex;
+	align-items: center;
+	column-gap: 30px;
+	padding-bottom: 30px;
+}
+
+.copyright {
+	font-size: 16px;
+}
+
+/* footer style end */
