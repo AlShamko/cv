@@ -73,6 +73,21 @@ body {
 	opacity: .75;
 }
 
+.header__link-active {
+	position: relative;
+}
+
+.header__link-active::before {
+	display: block;
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 100%;
+	height: 2px;
+	background-color: #5C62EC;
+}
+
 /* header styly end */
 
 /* name-section style start */
@@ -176,7 +191,7 @@ body {
 }
 
 .projects__item:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 
 .projects__item img {
